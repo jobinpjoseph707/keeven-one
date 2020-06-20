@@ -1,0 +1,70 @@
+h1{
+  text-align:center;
+  padding:90px;
+  font-size:60px;
+}
+#main{
+   background-color:silver;
+  border-radius:8px;
+  }
+#titie{
+  
+}
+#ima{
+   display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border-radius:8px;
+}
+#para{
+ text-align:center;
+  display: block;
+    margin-block-start:-5em;
+    margin-block-end: 5em;
+ 
+  
+}
+#img-caption{
+  text-align:center;
+}
+p{
+  font-size:20px;
+    letter-spacing: 3px;
+   line-height: 1.5;
+  padding-left:70px;
+  padding-right:40px;
+}
+#img-div{
+  background: white;
+    padding: 10px;
+    margin: 70px;
+  border-radius:2em;
+}
+.container{
+  display:grid;     
+  grid-template-columns: 1.5fr 1fr;
+      
+      grid-template-areas:
+        "advert header"
+        ;
+    }
+  .art {
+    background:white;
+    grid-area: advert;
+  }
+  .part {
+    
+    grid-area: header;
+  }
+  .arr {
+    background:white;
+  }
+ .app {
+    background:white;
+    font-size:30px;
+    letter-spacing: 3px;
+   line-height: 1.5;
+  padding-left:70px;
+  padding-right:40px;
+  }
